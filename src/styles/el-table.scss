@@ -1,0 +1,27 @@
+.el-table__body-wrapper {
+  .el-table__expanded-cell {
+    z-index: 100 !important;
+  }
+}
+.el-table__fixed,
+.el-table__fixed-right {
+  z-index: 2;
+  .el-table__expanded-cell {
+    visibility: hidden !important;
+  }
+}
+.expand {
+  width: calc(100vw - 100px);
+  padding: 20px;
+  background: #fff; //盖住fixed产生的阴影
+}
+
+.el-table-cell-background-red {
+  background-color: #fd625e !important;
+}
+.el-table-cell-background-orange {
+  background-color: orange !important;
+}
+.el-table-cell-color-white {
+  color: #ffffff !important;
+}
